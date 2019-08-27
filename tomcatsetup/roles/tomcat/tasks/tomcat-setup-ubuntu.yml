@@ -53,7 +53,7 @@
 
   - name: Template a file to /etc/init.d
     template:
-      src: /etc/ansible/playbooks/roles/tomcat/templates/tomcat.service.j2
+      src: /etc/ansible/tomcat/tomcatsetup/roles/tomcat/templates/tomcat.service.j2
       dest: /etc/init.d/tomcat
       owner: root
       group: root
