@@ -60,7 +60,7 @@
       mode: '0744'
 
   - name: Start and enable tomcat
-    command: /usr/sbin/service tomcat start
+    command: /usr/share/tomcat/bin/catalina.sh start
     ignore_errors: yes
 #      enabled: yes
 #    when: ansible_service_mgr == "systemd"
